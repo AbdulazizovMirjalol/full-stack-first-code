@@ -1,23 +1,23 @@
-Birinchi misol:
+//Birinchi misol:
 
-let a = Number(prompt("Kvadrat tomonini kriting: "));
-let b = 4 * a;
-console.log("Perimetri:", b);
+// let a = Number(prompt("Kvadrat tomonini kriting: "));
+// let b = 4 * a;
+// console.log("Perimetri:", b);
 
-Ikkinchi misol:
-let a = Number(prompt("kubni kriting"));
+//Ikkinchi misol:
+// let a = Number(prompt("kubni kriting"));
 
-let  = v * 3;
-let p = 6 * (a ** 2);
+// let  = v * 3;
+// let p = 6 * (a ** 2);
 
-alert(+v+p)
+// alert(+v+p)
 
-const a = Number(prompt("Kubning yon tomoni a ni kiriting:"));
+// const a = Number(prompt("Kubning yon tomoni a ni kiriting:"));
 
-const V = a ** 3;
-const S = 6 * (a ** 2);
+// const V = a ** 3;
+// const S = 6 * (a ** 2);
 
-alert("V = " + V + "\nS = " + S);
+// alert("V = " + V + "\nS = " + S);
 
 
 // 10 - misol
@@ -31,10 +31,10 @@ alert("V = " + V + "\nS = " + S);
 
 // console.log("yigindi" + bir + "\nko'paytma:"+ ikki + "\nkvadrati" + tort);
 
-// let x = Number(prompt("Son kiriting:"));
-// let modul;
+let x = Number(prompt("Son kiriting:"));
+let modul;
 
-// if (x < 0) modul = -x;
-// else modul = x;
+if (x < 0) modul = -x;
+else modul = x;
 
-// console.log(modul);
+console.log(modul);
