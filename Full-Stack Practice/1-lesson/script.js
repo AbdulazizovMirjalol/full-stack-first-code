@@ -19,17 +19,16 @@
 
 // alert("V = " + V + "\nS = " + S);
 
-
-10 - misol
+10 - misol;
 let a = Number(prompt("birinchi sondi kriting: "));
 let b = Number(prompt("Ikkinchi sondi kriting: "));
 
 let bir = a + b;
 let ikki = a * b;
-let uch = a * a ;
+let uch = a * a;
 let tort = b * b;
 
-console.log("yigindi" + bir + "\nko'paytma:"+ ikki + "\nkvadrati" + tort);
+console.log("yigindi" + bir + "\nko'paytma:" + ikki + "\nkvadrati" + tort);
 
 // let x = Number(prompt("Son kiriting:"));
 // let modul;
