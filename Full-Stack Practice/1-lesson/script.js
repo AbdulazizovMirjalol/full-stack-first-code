@@ -30,10 +30,10 @@ let tort = b * b;
 
 console.log("yigindi" + bir + "\nko'paytma:" + ikki + "\nkvadrati" + tort);
 
-// let x = Number(prompt("Son kiriting:"));
-// let modul;
+let x = Number(prompt("Son kiriting:"));
+let modul;
 
-// if (x < 0) modul = -x;
-// else modul = x;
+if (x < 0) modul = -x;
+else modul = x;
 
-// console.log(modul);
+console.log(modul);
