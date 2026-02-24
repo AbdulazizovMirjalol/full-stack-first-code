@@ -100,8 +100,8 @@
 // }
 
 
-let oyKun = Number(prompt("ixtiyoriyu oy kuni kiriting: "));
+let k = 7, n = 15;
 
-switch (kun){
-    
+for(let i = 1; i <= n; i++){
+    console.log(`${i} - martta => `,k);
 }
