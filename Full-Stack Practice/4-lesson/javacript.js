@@ -52,20 +52,20 @@
 //     console.log(3);
 // }
 
-// let x = Number(prompt("Ixtiyoriy son kiriting: "));
-// let y = Number(prompt("Ixtiyoriy son kiriting: "));
+let x = Number(prompt("Ixtiyoriy son kiriting: "));
+let y = Number(prompt("Ixtiyoriy son kiriting: "));
 
-// if (x === 0 && y === 0) {
-//   console.log(0);
-// } else if (x !== 0 && y === 0) {
-//   console.log(1);
-// } else if (x === 0 && y !== 0) {
-//   console.log(2);
-// } else {
-//   console.log(3);
-// }
+if (x === 0 && y === 0) {
+  console.log(0);
+} else if (x !== 0 && y === 0) {
+  console.log(1);
+} else if (x === 0 && y !== 0) {
+  console.log(2);
+} else {
+  console.log(3);
+}
 
 
-//Ternary
-let age = 18;
-console.log (age >= 18 ? "Voyaga yetgansiz!" : "Voyaga yetmagansiz!")
+// //Ternary
+// let age = 18;
+// console.log (age >= 18 ? "Voyaga yetgansiz!" : "Voyaga yetmagansiz!")
