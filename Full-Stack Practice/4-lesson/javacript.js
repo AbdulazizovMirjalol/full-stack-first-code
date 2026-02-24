@@ -112,3 +112,17 @@
 // }
 
 // console.log(1/sum)
+
+//foktaryal
+
+let n = 3;
+let sum = 0;
+let foktaryal = 1;
+for (let i = 1; i <= n; i++) {
+  for (let j = 1; j <= i; j++) {
+    foktaryal *= j;
+  }
+  sum += foktaryal;
+  foktaryal = 1;
+}
+console.log(sum);
