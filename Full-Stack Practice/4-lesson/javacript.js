@@ -52,20 +52,49 @@
 //     console.log(3);
 // }
 
-let x = Number(prompt("Ixtiyoriy son kiriting: "));
-let y = Number(prompt("Ixtiyoriy son kiriting: "));
+// let x = Number(prompt("Ixtiyoriy son kiriting: "));
+// let y = Number(prompt("Ixtiyoriy son kiriting: "));
 
-if (x === 0 && y === 0) {
-  console.log(0);
-} else if (x !== 0 && y === 0) {
-  console.log(1);
-} else if (x === 0 && y !== 0) {
-  console.log(2);
-} else {
-  console.log(3);
-}
+// if (x === 0 && y === 0) {
+//   console.log(0);
+// } else if (x !== 0 && y === 0) {
+//   console.log(1);
+// } else if (x === 0 && y !== 0) {
+//   console.log(2);
+// } else {
+//   console.log(3);
+// }
 
 
 // //Ternary
 // let age = 18;
 // console.log (age >= 18 ? "Voyaga yetgansiz!" : "Voyaga yetmagansiz!")
+
+let kun = Number(prompt("Hafta sonini kriting: "));
+
+switch(kun){
+    case 1:
+        console.log("Duyshanba")
+        break;
+    case 2:
+        console.log("Seyshanba")
+        break;
+    case 3:
+        console.log("Chorshanba")
+        break;
+    case 4:
+        console.log("Payshanba")
+        break;
+    case 5:
+        console.log("Juma")
+        break;
+    case 6:
+        console.log("Shanba")
+        break;
+    case 7:
+        console.log("Yakshanba")
+        break;
+    default: 
+        console.log("Bunday kun yo'q")
+        break;
+}
