@@ -5,5 +5,5 @@
 // console.log(ism,familya);
 // console.log(yosh);
 
-let mirjalolName = "Mirjalol";
-console.log(mirjalolName);
+// let mirjalolName = "Mirjalol";
+// console.log(mirjalolName);
