@@ -1,1 +1,6 @@
-alert("Salom dunyo!");
+// alert("Salom dunyo!");
+let ism  = "Mirjalol";
+let familya = "Abdulazizov";
+let yosh = 18;
+console.log(ism,familya);
+console.log(yosh);
