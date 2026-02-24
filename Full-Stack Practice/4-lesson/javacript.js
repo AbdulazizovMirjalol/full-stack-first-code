@@ -33,7 +33,7 @@
 //     console.log(a + b)
 // }
 // else{
-//     a = 0 
+//     a = 0
 //     b = 0
 //     console.log(a,b)
 // }
@@ -65,7 +65,6 @@
 //   console.log(3);
 // }
 
-
 // //Ternary
 // let age = 18;
 // console.log (age >= 18 ? "Voyaga yetgansiz!" : "Voyaga yetmagansiz!")
@@ -94,11 +93,10 @@
 //     case 0:
 //         console.log("Yakshanba")
 //         break;
-//     default: 
+//     default:
 //         console.log("Bunday kun yo'q")
 //         break;
 // }
-
 
 // let k = 7, n = 15;
 
@@ -106,11 +104,11 @@
 //     console.log(`${i} - martta => `,k);
 // }
 
-let n = 10;
-let sum = 0;
+// let n = 10;
+// let sum = 0;
 
-for(let i = 1; i <= n; i++){
-    sum += i
-}
+// for(let i = 1; i <= n; i++){
+//     sum += i
+// }
 
-console.log(1/sum)
+// console.log(1/sum)
