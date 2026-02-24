@@ -98,3 +98,10 @@
 //         console.log("Bunday kun yo'q")
 //         break;
 // }
+
+
+let oyKun = Number(prompt("ixtiyoriyu oy kuni kiriting: "));
+
+switch (kun){
+    
+}
