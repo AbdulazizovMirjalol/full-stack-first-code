@@ -27,13 +27,13 @@
 //         console.log("Siz balog'atga yetmagansiz!");
 //     }
 
-let a = 18, b = 20;
+// let a = 18, b = 20;
 
-if (a !== b){
-    console.log(a + b)
-}
-else{
-    a = 0 
-    b = 0
-    console.log(a,b)
-}
+// if (a !== b){
+//     console.log(a + b)
+// }
+// else{
+//     a = 0 
+//     b = 0
+//     console.log(a,b)
+// }
