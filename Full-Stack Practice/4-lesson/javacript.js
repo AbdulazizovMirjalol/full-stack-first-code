@@ -37,3 +37,30 @@
 //     b = 0
 //     console.log(a,b)
 // }
+
+let x = Number(prompt("Ixtiyori son kriting: "));
+let y = Number(prompt("Ixtiyorish son kriting: "));
+
+if (x === 0 && y === 0){
+    console.log(0);
+}
+else if (x !== 0 && y === 0){
+    console.log(1);
+}else if (x === 0 && y !== 0){
+    console.log(2);
+}else {
+    console.log(3);
+}
+
+// let x = Number(prompt("Ixtiyoriy son kiriting: "));
+// let y = Number(prompt("Ixtiyoriy son kiriting: "));
+
+// if (x === 0 && y === 0) {
+//   console.log(0);
+// } else if (x !== 0 && y === 0) {
+//   console.log(1);
+// } else if (x === 0 && y !== 0) {
+//   console.log(2);
+// } else {
+//   console.log(3);
+// }
