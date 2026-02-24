@@ -100,8 +100,17 @@
 // }
 
 
-let k = 7, n = 15;
+// let k = 7, n = 15;
+
+// for(let i = 1; i <= n; i++){
+//     console.log(`${i} - martta => `,k);
+// }
+
+let n = 10;
+let sum = 0;
 
 for(let i = 1; i <= n; i++){
-    console.log(`${i} - martta => `,k);
+    sum += i
 }
+
+console.log(1/sum)
