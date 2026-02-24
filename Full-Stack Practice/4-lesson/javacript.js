@@ -137,8 +137,16 @@
 //     i++
 // }
 
-let m = 0;
-do {
-    console.log(m < 10);
-    m++
-}while(m < 10);
+// let m = 0;
+// do {
+//     console.log(m < 10);
+//     m++
+// }while(m < 10);
+
+
+let a = 10, b = 3;
+
+while(a > b){
+    a = a - b
+}
+console.log(a)
