@@ -115,14 +115,30 @@
 
 //foktaryal
 
-let n = 3;
-let sum = 0;
-let foktaryal = 1;
-for (let i = 1; i <= n; i++) {
-  for (let j = 1; j <= i; j++) {
-    foktaryal *= j;
-  }
-  sum += foktaryal;
-  foktaryal = 1;
-}
-console.log(sum);
+// let n = 3;
+// let sum = 0;
+// let foktaryal = 1;
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     foktaryal *= j;
+//   }
+//   sum += foktaryal;
+//   foktaryal = 1;
+// }
+// console.log(sum);
+
+
+
+// while, do while
+
+// let i = 0;
+// while(i < 5){
+//     console.log(i)
+//     i++
+// }
+
+let m = 0;
+do {
+    console.log(m < 10);
+    m++
+}while(m < 10);
