@@ -70,31 +70,31 @@
 // let age = 18;
 // console.log (age >= 18 ? "Voyaga yetgansiz!" : "Voyaga yetmagansiz!")
 
-let kun = Number(prompt("Hafta sonini kriting: "));
+// let kun = Number(prompt("Hafta sonini kriting: "));
 
-switch(kun){
-    case 1:
-        console.log("Duyshanba")
-        break;
-    case 2:
-        console.log("Seyshanba")
-        break;
-    case 3:
-        console.log("Chorshanba")
-        break;
-    case 4:
-        console.log("Payshanba")
-        break;
-    case 5:
-        console.log("Juma")
-        break;
-    case 6:
-        console.log("Shanba")
-        break;
-    case 7:
-        console.log("Yakshanba")
-        break;
-    default: 
-        console.log("Bunday kun yo'q")
-        break;
-}
+// switch(kun % 7){
+//     case 1:
+//         console.log("Duyshanba")
+//         break;
+//     case 2:
+//         console.log("Seyshanba")
+//         break;
+//     case 3:
+//         console.log("Chorshanba")
+//         break;
+//     case 4:
+//         console.log("Payshanba")
+//         break;
+//     case 5:
+//         console.log("Juma")
+//         break;
+//     case 6:
+//         console.log("Shanba")
+//         break;
+//     case 0:
+//         console.log("Yakshanba")
+//         break;
+//     default: 
+//         console.log("Bunday kun yo'q")
+//         break;
+// }
