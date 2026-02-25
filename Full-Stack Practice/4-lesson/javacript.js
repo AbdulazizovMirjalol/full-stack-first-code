@@ -144,9 +144,10 @@
 // }while(m < 10);
 
 
-let a = 10, b = 3;
+// let a = 10, b = 3;
 
-while(a > b){
-    a = a - b
-}
-console.log(a)
+// while(a > b){
+//     a = a - b
+// }
+// console.log(a)
+
