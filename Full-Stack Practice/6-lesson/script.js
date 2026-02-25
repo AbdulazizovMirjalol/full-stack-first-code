@@ -15,8 +15,14 @@
 // console.log(result);
 // console.log(sum(10, 40));
 
-const sum = (a, b) => {
-  return a * b;
-};
-let result = sum(8,8)
+// const sum = (a, b) => {
+//   return a * b;
+// };
+// let result = sum(8,8)
+// console.log(result)
+
+function powerA (a){
+    return a ** 3;
+}
+let result = powerA(3);
 console.log(result)
