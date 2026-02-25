@@ -1,7 +1,7 @@
-function salom(){
-    console.log("Salom Mirjalol");
-}
-salom();
+// function salom(){
+//     console.log("Salom Mirjalol");
+// }
+// salom();
 
 function sum(a,b){
     return a * b;
