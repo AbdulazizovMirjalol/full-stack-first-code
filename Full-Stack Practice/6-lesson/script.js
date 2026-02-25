@@ -21,8 +21,13 @@
 // let result = sum(8,8)
 // console.log(result)
 
-function powerA (a){
-    return a ** 3;
+// function powerA (a){
+//     return a ** 3;
+// }
+// let result = powerA(3);
+// console.log(result)
+
+function powerA234(a){
+    return console.log(`a ** 2 => ${a**2} a ** 3 => ${a ** 3} a ** 4 ${a ** 4}`)
 }
-let result = powerA(3);
-console.log(result)
+powerA234(5)
