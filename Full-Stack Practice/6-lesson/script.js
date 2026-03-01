@@ -61,6 +61,7 @@ function RectPS(x1, y1, x2, y2) {
   let p = 2 * (a + b);
   let s = a * b;
   return { p, s };
+  
 }
 
 let r1 = RectPS(1, 2, 6, 8);
