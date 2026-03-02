@@ -14,3 +14,9 @@ function m(){
     console.log(ism);
 }
 m();
+
+function test(){
+    let yosh = 20;
+    console.log(yosh);
+}
+test();
