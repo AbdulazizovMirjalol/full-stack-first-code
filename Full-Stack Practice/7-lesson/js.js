@@ -44,26 +44,26 @@
 
 // }
 
-// let data = [
-//     {
-//         name: "Mirjalol",
-//         surname: "Abdulazizov",
-//         age: 18,
-//         isMarried: false
-//     },
-//     {
-//         name: "Javlon",
-//         surname: "Abduxaliqov",
-//         age: 18,
-//         isMarried: false
-//     },
-//     {
-//         name: "Abzalbek",
-//         surname: "Toshpo'latov",
-//         age: 27,
-//         isMarried: true
-//     }
-// ]
+let data = [
+    {
+        name: "Mirjalol",
+        surname: "Abdulazizov",
+        age: 18,
+        isMarried: false
+    },
+    {
+        name: "Javlon",
+        surname: "Abduxaliqov",
+        age: 18,
+        isMarried: false
+    },
+    {
+        name: "Abzalbek",
+        surname: "Toshpo'latov",
+        age: 27,
+        isMarried: true
+    }
+]
 
 // for (const i of data) {
 //     console.log(`ismi ${i.name}, familya ${i.surname}, yoshi ${i.age}, holati: ${i.isMarried ? "Uylangan" : "Uylanmagan"}`);
@@ -90,12 +90,12 @@
 // console.log(str7.endsWith("yo"));
 // console.log(str7.search("m"));
 
-function fun1(a, b) {
-  let result = a.indexOf(b);
-  if (result === -1) {
-    return "Mavjud emas"
-  } else {
-    return result
-  }
-}
-console.log(fun1("Salon","al"));
+// function fun1(a, b) {
+//   let result = a.indexOf(b);
+//   if (result === -1) {
+//     return "Mavjud emas"
+//   } else {
+//     return result
+//   }
+// }
+// console.log(fun1("Salon","al"));
