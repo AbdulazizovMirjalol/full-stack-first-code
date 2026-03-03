@@ -45,3 +45,30 @@
     
 // }
 
+
+let data = [
+    {
+        name: "Mirjalol",
+        surname: "Abdulazizov",
+        age: 18, 
+        isMarried: false 
+    },
+    {
+        name: "Javlon",
+        surname: "Abduxaliqov",
+        age: 18,
+        isMarried: false
+    },
+    {
+        name: "Abzalbek",
+        surname: "Toshpo'latov",
+        age: 27,
+        isMarried: true
+    }
+]
+
+
+for (const i of data) {
+    console.log(`ismi ${i.name}, familya ${i.surname}, yoshi ${i.age}, holati: ${i.isMarried ? "Uylangan" : "Uylanmagan"}`);
+}
+
