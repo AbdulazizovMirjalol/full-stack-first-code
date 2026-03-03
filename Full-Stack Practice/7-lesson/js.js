@@ -72,22 +72,22 @@
 //     console.log(`ismi ${i.name}, familya ${i.surname}, yoshi ${i.age}, holati: ${i.isMarried ? "Uylangan" : "Uylanmagan"}`);
 // }
 
-let str1 = "Axror"
-let str2 = 'Salom, O\'zbekiston'
+let str1 = "Axror";
+let str2 = 'Salom, O\'zbekiston';
 console.log(str2);
 
-let str3 = `Salom ${str2}`
+let str3 = `Salom ${str2}`;
 console.log(str3);
 
-let str4 = 123
-let str5 = String(str4)
+let str4 = 123;
+let str5 = String(str4);
 console.log(typeof str5);
-let str6 = "Javascript"
+let str6 = "Javascript";
 console.log(str6. length);
 
-let str7 = "Salom Dunyo"
-// console.log(str7.indexOf("Dunyo"));
-// console.log(str7.lastindexOf("o"));
+let str7 = "Salom Dunyo";
+console.log(str7.indexOf("Dunyo"));
+console.log(str7.lastIndexOf("o"));
 console.log(str7.includes("Salom"));
 
 
