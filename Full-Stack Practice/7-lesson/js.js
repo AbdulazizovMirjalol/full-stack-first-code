@@ -89,6 +89,9 @@ let str7 = "Salom Dunyo";
 console.log(str7.indexOf("Dunyo"));
 console.log(str7.lastIndexOf("o"));
 console.log(str7.includes("Salom"));
+console.log(str7.startsWith("Dunyo"));
+console.log(str7.endsWith("yo"));
+console.log(str7.search("m"));
 
 
 
