@@ -100,12 +100,17 @@
 // // }
 // // console.log(fun1("Salon","al"));
 
-let ism = "Mirjalol Abdulazizov";
+// let ism = "Mirjalol Abdulazizov";
 
-console.log(ism.toUpperCase());
-console.log(ism.toLowerCase());
-console.log(ism.trim());
-console.log(ism.trimStart());
-console.log(ism.trimEnd());
-console.log(ism.replace("M", 7));
-console.log(ism.replaceAll("A", 1));
+// console.log(ism.toUpperCase());
+// console.log(ism.toLowerCase());
+// console.log(ism.trim());
+// console.log(ism.trimStart());
+// console.log(ism.trimEnd());
+// console.log(ism.replace("M", 7));
+// console.log(ism.replaceAll("A", 1));
+
+function almashtirish (a,s,d){
+    return  a.replace(s,d)
+}
+console.log(almashtirish("Salom mening ismim Azamat !","Azamat","Mirjalol"))
