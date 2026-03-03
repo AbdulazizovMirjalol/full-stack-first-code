@@ -33,25 +33,23 @@
 //     console.log(i)
 // }
 
-
 // mevalar = ["olma","nok","hurmo","uzum"]
-// // talabaMirjalol = 
+// // talabaMirjalol =
 // //     m = "Mirjalol",
 // //     surname = "Abdulazizov",
 // //     age = 18
 
 // for (const m of mevalar) {
 //     console.log(m,talabaMirjalol);
-    
-// }
 
+// }
 
 // let data = [
 //     {
 //         name: "Mirjalol",
 //         surname: "Abdulazizov",
-//         age: 18, 
-//         isMarried: false 
+//         age: 18,
+//         isMarried: false
 //     },
 //     {
 //         name: "Javlon",
@@ -67,31 +65,37 @@
 //     }
 // ]
 
-
 // for (const i of data) {
 //     console.log(`ismi ${i.name}, familya ${i.surname}, yoshi ${i.age}, holati: ${i.isMarried ? "Uylangan" : "Uylanmagan"}`);
 // }
 
-let str1 = "Axror";
-let str2 = 'Salom, O\'zbekiston';
-console.log(str2);
+// let str1 = "Axror";
+// let str2 = 'Salom, O\'zbekiston';
+// console.log(str2);
 
-let str3 = `Salom ${str2}`;
-console.log(str3);
+// let str3 = `Salom ${str2}`;
+// console.log(str3);
 
-let str4 = 123;
-let str5 = String(str4);
-console.log(typeof str5);
-let str6 = "Javascript";
-console.log(str6. length);
+// let str4 = 123;
+// let str5 = String(str4);
+// console.log(typeof str5);
+// let str6 = "Javascript";
+// console.log(str6. length);
 
-let str7 = "Salom Dunyo";
-console.log(str7.indexOf("Dunyo"));
-console.log(str7.lastIndexOf("o"));
-console.log(str7.includes("Salom"));
-console.log(str7.startsWith("Dunyo"));
-console.log(str7.endsWith("yo"));
-console.log(str7.search("m"));
+// let str7 = "Salom Dunyo";
+// console.log(str7.indexOf("Dunyo"));
+// console.log(str7.lastIndexOf("o"));
+// console.log(str7.includes("Salom"));
+// console.log(str7.startsWith("Dunyo"));
+// console.log(str7.endsWith("yo"));
+// console.log(str7.search("m"));
 
-
-
+function fun1(a, b) {
+  let result = a.indexOf(b);
+  if (result === -1) {
+    return "Mavjud emas"
+  } else {
+    return result
+  }
+}
+console.log(fun1("Salon","al"));
