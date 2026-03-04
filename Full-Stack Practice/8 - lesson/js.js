@@ -55,7 +55,7 @@ function validate(email, password) {
     return { ok: false, message: "Parol kamida 8 ta belgidan iborat bo'lishi kerak." };
   }
 
-  return { ok: true, message: "Hammasi to'g'ri ✅" };
+  return { ok: true, message: "Hammasi to'g'ri " };
 }
 
 // Misollar:

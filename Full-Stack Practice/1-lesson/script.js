@@ -1,4 +1,4 @@
-// Birinchi misol:
+// // Birinchi misol:
 
 // let a = Number(prompt("Kvadrat tomonini kriting: "));
 // let b = 4 * a;
@@ -19,21 +19,21 @@
 
 // alert("V = " + V + "\nS = " + S);
 
-10 - misol;
-let a = Number(prompt("birinchi sondi kriting: "));
-let b = Number(prompt("Ikkinchi sondi kriting: "));
+// 10 - misol;
+// let a = Number(prompt("birinchi sondi kriting: "));
+// let b = Number(prompt("Ikkinchi sondi kriting: "));
 
-let bir = a + b;
-let ikki = a * b;
-let uch = a * a;
-let tort = b * b;
+// let bir = a + b;
+// let ikki = a * b;
+// let uch = a * a;
+// let tort = b * b;
 
-console.log("yigindi" + bir + "\nko'paytma:" + ikki + "\nkvadrati" + tort);
+// console.log("yigindi" + bir + "\nko'paytma:" + ikki + "\nkvadrati" + tort);
 
-let x = Number(prompt("Son kiriting:"));
-let modul;
+// let x = Number(prompt("Son kiriting:"));
+// let modul;
 
-if (x < 0) modul = -x;
-else modul = x;
+// if (x < 0) modul = -x;
+// else modul = x;
 
-console.log(modul);
+// console.log(modul);
