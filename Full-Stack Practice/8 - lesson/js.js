@@ -27,5 +27,19 @@ function sumTo(n){
 console.log(sumTo(10));
 
 
+function maxTwo(a,b){
+    if (a > b){
+        return a;
+    }else if(a == b){
+        return a * b;
+    }else{
+        return b;
+    }
+}
+console.log(maxTwo(150,150));
+console.log(maxTwo(150,10));
+console.log(maxTwo(10,50));
+
+
 
 
