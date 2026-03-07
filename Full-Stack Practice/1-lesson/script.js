@@ -37,3 +37,8 @@
 // else modul = x;
 
 // console.log(modul);
+
+
+let fruit = ['olma', 'banan', 'nok', 'mandarin', 'kiwi'];
+
+console.log(fruit);
