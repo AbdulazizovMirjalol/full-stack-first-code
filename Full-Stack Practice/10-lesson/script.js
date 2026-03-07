@@ -39,7 +39,7 @@
 //         console.log("5 karra jadvali");
 //         for (let i = 1; i <= 10; i++){
 //             console.log(`5x ${i} = ${5 * i}`);
-            
+
 //         }
 //         break;
 //     case 9:
@@ -51,5 +51,5 @@
 //         break;
 //         default:
 //             console.log("Faqat 2 , 5, 9 karra uchun misol yozilgan");
-            
+
 // }
