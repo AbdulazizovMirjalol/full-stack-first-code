@@ -15,7 +15,7 @@
 // while (i <= 5) {
 //   console.log("While Son", i);
 //   i++;
-}
+
 
 let son = prompt("Son kriting: ");
 
