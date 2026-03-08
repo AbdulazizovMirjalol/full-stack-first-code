@@ -17,10 +17,10 @@
 // //   i++;
 // }
 
-let son = prompt("Son kriting: ");
+// let son = prompt("Son kriting: ");
 
-if (son % 2 === 0) {
-  console.log("Kiritilgan son Juft");
-} else {
-  console.log("Kiritilgan son Toq");
-}
+// if (son % 2 === 0) {
+//   console.log("Kiritilgan son Juft");
+// } else {
+//   console.log("Kiritilgan son Toq");
+// }
