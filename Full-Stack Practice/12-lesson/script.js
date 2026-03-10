@@ -10,3 +10,5 @@ students.forEach(student => {
 
     console.log(student.name + " average score: " + average);
 });
+
+
