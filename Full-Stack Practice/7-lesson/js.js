@@ -110,20 +110,20 @@
 // console.log(ism.replace("M", 7));
 // console.log(ism.replaceAll("A", 1));
 
-function almashtirish (a,s,d){
-    return  a.replace(s,d)
-}
-console.log(almashtirish("Salom mening ismim Azamat !","Azamat","Mirjalol"))
+// function almashtirish (a,s,d){
+//     return  a.replace(s,d)
+// }
+// console.log(almashtirish("Salom mening ismim Azamat !","Azamat","Mirjalol"))
 
 
-let language = "Java, C++, C#"
+// let language = "Java, C++, C#"
 
-console.log(language.concat(" ", "sript.js"));
-console.log(language.split(","));
-console.log(language.split(",")[1].trim());
-console.log(language.repeat(2));
-console.log(language.padStart(44,"0"));
-console.log(language.padEnd(23,"0"));
+// console.log(language.concat(" ", "sript.js"));
+// console.log(language.split(","));
+// console.log(language.split(",")[1].trim());
+// console.log(language.repeat(2));
+// console.log(language.padStart(44,"0"));
+// console.log(language.padEnd(23,"0"));
 
 
 
