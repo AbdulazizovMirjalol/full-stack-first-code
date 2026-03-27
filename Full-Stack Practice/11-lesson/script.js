@@ -26,4 +26,12 @@
 // }
 
 
-let ("Salom Mening Ismim Mirjalol")
+let m = ("Salom Mening Ismim Mirjalol")
+if (m == "Salom Mening"){
+  console.log("Bu yaxshi emas");
+}else{
+  console.log("Sen Mirjalolsan Yaxshi ");
+  
+}
+
+console.log(m);
